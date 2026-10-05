@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3: Acceso secreto</title>
+    <link rel="stylesheet" href="tarea3.css">
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Acceso secreto</h1>
+        <p>codigo verdadero 2 y 3  </p>
+        <p>Actividad 2</p>
+        <p>Elige dos números enteros del 1 al 5.</p>
+        <p>Ingresa la combinación correcta para poder ingresar.</p>
+
+        <label for="input">Primer número secreto</label>
+        <input id="input" type="number" min="1" max="5" step="1" placeholder="Ingresa el primer número">
+
+        <label for="input2">Segundo número secreto</label>
+        <input id="input2" type="number" min="1" max="5" step="1" placeholder="Ingresa el segundo número">
+
+        <button id="verificar" type="button">Verificar</button>
+        <p id="secret-result" role="status"></p>
+    </main>
+
+    <script src="tarea3.js"></script>
+</body>
+</html>
